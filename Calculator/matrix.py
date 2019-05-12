@@ -1,0 +1,13 @@
+
+def matrix():
+    print('''a  b
+c  d''')
+    print('enter your matrice value:')
+    while True:
+        a=int(input('enter value a:'))
+        b=int(input('enter value b:'))
+        c=int(input('enter value c:'))
+        d=int(input('enter value d:'))
+        ans=(a*d)-(b*c)
+        print('Your answer is',ans)
+      
